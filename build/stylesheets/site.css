@@ -1,0 +1,53 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #000; }
+
+a {
+  color: #247BA0; }
+
+header {
+  height: 20px; }
+
+.logo img {
+  width: 100%; }
+
+.artist-list {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px; }
+
+footer {
+  margin-top: 20px;
+  width: 100%; }
+
+.tagline {
+  color: #247BA0; }
+
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .links li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    margin-right: 10px; }
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 60px; }
+
+  .logo {
+    display: table-cell;
+    float: none; }
+
+  .artist {
+    display: table-cell;
+    vertical-align: bottom;
+    float: none; }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px; } }
