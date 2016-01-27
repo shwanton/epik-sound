@@ -6,7 +6,7 @@ html, body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -15,32 +15,24 @@ a,
   color: #22262b;
 }
 
-header {
-}
-
-.logo {
-  text-align: center;
+.container {
+  padding-left: 3rem;
 }
 
 .logo h1 {
-  height: 12rem;
+  height: 8rem;
+  font-size: 8rem;
   margin: 1rem 0;
-  font-size: 10rem;
   font-weight: 100;
 }
 
 .subheader {
-  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .subheader h4 {
   font-weight: 100;
-  text-transform: uppercase;
-}
-
-section {
-  width: 42rem;
-  margin: 0 auto;
 }
 
 .artist-list {
@@ -48,6 +40,7 @@ section {
   list-style: none;
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .links {
@@ -69,3 +62,33 @@ section {
 footer {
   text-align: center;
 }
+
+@media only screen and (min-width : 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-left: 15px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .logo h1 {
+    height: 12rem;
+    font-size: 10rem;
+  }
+
+  .subheader h4 {
+    font-size: 2.5rem;
+  }
+
+  section {
+    width: 42rem;
+    margin: 0 auto;
+  }
+
+}
+
