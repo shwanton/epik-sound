@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+$color1: #dcdcdd;
+$color2: #c5c3c6;
+$color3: #46494c;
+$color4: #4c5c68;
+$color5: #1985a1;
+
 html, body {
   height: 100%;
 }
@@ -8,39 +14,62 @@ body {
   font-family: 'Yantramanav', sans-serif;
   font-size: 14px;
   font-weight: 400;
+  background-color: $color3;
+  color: $color3;
 }
 
-a,
-.tagline {
-  color: #22262b;
+a {
+  color: $color4;
 }
 
-.logo h1 {
-  height: 8rem;
-  font-size: 6rem;
-  margin: 1rem 0;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
+a:hover, a:active, a:focus {
+  color: $color5;
+}
+
+.container {
+  width: 100% !important;
+}
+
+header {
+  background: $color5;
+}
+
+.content {
+  background: $color2;
+}
+
+.logo {
+  padding: 1.5rem 0 2.5rem;
+  h1 {
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+    color: $color1;
+  }
 }
 
 .subheader {
   font-size: 2.5rem;
-  margin-bottom: 5.5rem;
+  padding: 3.7rem 0 2.8rem;
   h4 {
-    font-weight: 100;
+    font-weight: 300;
     word-spacing: 1rem;
     text-transform: uppercase;
   }
 }
 
-.artist-list {
-  padding: 0;
-  list-style: none;
-  font-size: 2rem;
-  margin-bottom: 5.8rem;
-  text-transform: uppercase;
-  li {
-    margin-bottom: 0.5rem;
+.artists {
+  margin-bottom: 3.3rem;
+  .artist-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    li {
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
@@ -57,7 +86,7 @@ a,
 }
 
 .social {
-  margin-bottom: 4rem;
+  margin-bottom: 3.7rem;
 }
 
 footer {
@@ -81,9 +110,7 @@ footer {
   .logo {
     text-align: center;
     h1 {
-      height: 12rem;
       font-size: 10rem;
-      margin: 2rem 0;
     }
   }
 
