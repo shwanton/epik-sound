@@ -1,8 +1,13 @@
 @charset "utf-8";
 
+html, body, section, .container {
+  height: 100%;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #000;
+  font-size: 16px;
+  background: #000 url('/images/epik-logo-plain-crop.jpg') no-repeat top center;
 }
 
 a {
@@ -12,7 +17,8 @@ a {
 .text-logo h1 {
   color: #fff;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  font-size: 5rem;
 }
 
 header {
@@ -21,15 +27,15 @@ header {
   margin-bottom: 5rem;
 }
 
-.logo img {
-  width: 100%;
-}
-
 .artist-list {
-  margin: 20px 0 0;
   padding: 0;
   list-style: none;
-  font-size: 18px;
+  font-size: 2rem;
+  width: 20rem;
+}
+
+.artists {
+  height: 100%;
 }
 
 footer {
@@ -54,8 +60,8 @@ footer {
 }
 
 @media only screen and (min-width : 768px) {
-  header {
-    // height: 60px;
+  .container {
+    padding: 0 10rem;
   }
 
   .logo {
