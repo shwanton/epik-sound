@@ -6,6 +6,9 @@ $color3: #46494c;
 $color4: #4c5c68;
 $color5: #1985a1;
 
+$yellow: #f0c808;
+$red: #dd1c1a;
+
 html, body {
   height: 100%;
 }
@@ -14,16 +17,17 @@ body {
   font-family: 'Yantramanav', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  background-color: $color3;
-  color: $color3;
+  background-color: #000;
+  color: $color2;
 }
 
 a {
-  color: $color4;
+  color: $color2;
 }
 
 a:hover, a:active, a:focus {
-  color: $color5;
+  color: $yellow;
+  text-decoration: none;
 }
 
 .container {
@@ -31,21 +35,17 @@ a:hover, a:active, a:focus {
 }
 
 header {
-  background: $color5;
-}
-
-.content {
-  background: $color2;
+  // background: $color2;
 }
 
 .logo {
-  padding: 1.5rem 0 2.5rem;
+  padding: 3rem 0 0rem;
   h1 {
     margin: 0;
-    font-size: 6rem;
+    font-size: 6.5rem;
     font-weight: 100;
     letter-spacing: 0.5rem;
-    color: $color1;
+    color: $yellow;
   }
 }
 
@@ -108,6 +108,7 @@ footer {
   }
 
   .logo {
+    padding: 1.5rem 0 0.5rem;
     text-align: center;
     h1 {
       font-size: 10rem;
