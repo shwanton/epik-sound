@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -15,33 +15,33 @@ a,
   color: #22262b;
 }
 
-.container {
-  padding-left: 3rem;
-}
-
 .logo h1 {
   height: 8rem;
-  font-size: 8rem;
+  font-size: 6rem;
   margin: 1rem 0;
   font-weight: 100;
+  letter-spacing: 0.5rem;
 }
 
 .subheader {
   font-size: 2.5rem;
-  margin-bottom: 3rem;
-}
-
-.subheader h4 {
-  font-weight: 100;
-  word-spacing: 1rem;
+  margin-bottom: 5.5rem;
+  h4 {
+    font-weight: 100;
+    word-spacing: 1rem;
+    text-transform: uppercase;
+  }
 }
 
 .artist-list {
   padding: 0;
   list-style: none;
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5.8rem;
   text-transform: uppercase;
+  li {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .links {
@@ -69,28 +69,27 @@ footer {
     font-size: 16px;
   }
 
+  section {
+    width: 43.7rem;
+    margin: 0 auto;
+  }
+
   .container {
     padding-left: 15px;
   }
 
   .logo {
     text-align: center;
-  }
-
-  .logo h1 {
-    height: 12rem;
-    font-size: 10rem;
+    h1 {
+      height: 12rem;
+      font-size: 10rem;
+      margin: 2rem 0;
+    }
   }
 
   .subheader h4 {
     font-size: 2.5rem;
     word-spacing: 1.5rem;
   }
-
-  section {
-    width: 42rem;
-    margin: 0 auto;
-  }
-
 }
 
