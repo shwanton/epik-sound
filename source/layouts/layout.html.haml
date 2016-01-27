@@ -5,35 +5,61 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}
 
-    %title= current_page.data.title || "Middleman"
+    %title Epik Sound | Vancouver, BC
+
     %link{:href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}
     %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==", :rel => "stylesheet"}
     = stylesheet_link_tag :site
 
   %body{:class => page_classes}
-    %header
+    .container
+      %header.row
+        .col.sm-12.text-logo
+          %h1 epiksound
 
-    %section
-      .container
-        = yield
+      %section.row
+        .logo.col-sm-6
+          = image_tag 'epik-logo-plain.jpg'
 
-    %footer
-      .container
-        .row
-          .col-sm-6
-            %p.tagline ARTIST BOOKING.EVENTS.MANAGEMENT - VANCOUVER, BC
+        .artist.col-sm-6
+          %ul.artist-list
+            %li
+              %a{ href: 'https://soundcloud.com/koosh-koosh', target: :blank }
+                Koosh
+            %li
+              %a{ href: 'https://soundcloud.com/therealdjspun', target: :blank }
+                DJ Spun
+            %li
+              %a{ href: 'https://soundcloud.com/derekdee', target: :blank }
+                DJ D.DEE
+            %li
+              %a{ href: 'Magic Fly: https://soundcloud.com/james-flavour/magicfly-supersuprizedjmix', target: :blank }
+                Magic Fly
+            %li
+              %a{ href: 'https://soundcloud.com/pacificrhythm', target: :blank }
+                Pacific Rhythm Label
+            %li
+              %a{ href: 'https://soundcloud.com/dave-dk', target: :blank }
+                Dave DK (on request)
+            %li
+              %a{ href: 'http://www.residentadvisor.net/dj/themole', target: :blank }
+                The Mole (on request)
 
-          .col-sm-6
-            %ul.links
-              %li
-                %a{ href: 'https://www.facebook.com/epiksoundagency', target: :blank, title: 'Facebook' }
-                  %i.fa.fa-facebook
+      %footer.row
+        .col-sm-6
+          %p.tagline ARTIST BOOKING.EVENTS.MANAGEMENT - VANCOUVER, BC
 
-              %li
-                %a{ href: 'https://www.instagram.com/epiksound/', target: :blank, title: 'Instagram' }
-                  %i.fa.fa-instagram
+        .col-sm-6
+          %ul.links
+            %li
+              %a{ href: 'https://www.facebook.com/epiksoundagency', target: :blank, title: 'Facebook' }
+                %i.fa.fa-facebook
 
-              %li
-                %a{ mailto: 'felix@epiksound.com', target: :blank, title: 'Email' }
-                  %i.fa.fa-envelope
+            %li
+              %a{ href: 'https://www.instagram.com/epiksound/', target: :blank, title: 'Instagram' }
+                %i.fa.fa-instagram
+
+            %li
+              %a{ mailto: 'felix@epiksound.com', target: :blank, title: 'Email' }
+                %i.fa.fa-envelope
 
