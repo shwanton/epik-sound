@@ -9,54 +9,64 @@
 
     %link{:href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}
     %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==", :rel => "stylesheet"}
+    %link{:href=>'https://fonts.googleapis.com/css?family=Roboto:100,400,700', :rel => 'stylesheet', :type => 'text/css'}
     = stylesheet_link_tag :site
 
   %body{:class => page_classes}
     .container
-      %header.row
-        .col.sm-12.text-logo
-          %h1 epiksound
+      .row
+        .col-sm-12
+          %header.logo
+            %h1 epiksound
 
-      %section.row
-        .artists.col-sm-12
-          %ul.artist-list
-            %li
-              %a{ href: 'https://soundcloud.com/koosh-koosh', target: :blank }
-                Koosh
-            %li
-              %a{ href: 'https://soundcloud.com/therealdjspun', target: :blank }
-                DJ Spun
-            %li
-              %a{ href: 'Magic Fly: https://soundcloud.com/james-flavour/magicfly-supersuprizedjmix', target: :blank }
-                Magic Fly
-            %li
-              %a{ href: 'https://soundcloud.com/derekdee', target: :blank }
-                DJ D.DEE
-            %li
-              %a{ href: 'https://soundcloud.com/pacificrhythm', target: :blank }
-                Pacific Rhythm Label
-            %li
-              %a{ href: 'https://soundcloud.com/dave-dk', target: :blank }
-                Dave DK (on request)
-            %li
-              %a{ href: 'http://www.residentadvisor.net/dj/themole', target: :blank }
-                The Mole (on request)
+      .row
+        .col-sm-12
+          %section.subheader
+            %h4 Booking.Events.Management - Vancouver, BC
 
-      %footer.row
-        .col-sm-6
-          %p.tagline ARTIST BOOKING.EVENTS.MANAGEMENT - VANCOUVER, BC
+        .col-sm-12
+          %section.artists
+            %ul.artist-list
+              %li
+                %a{ href: 'https://soundcloud.com/koosh-koosh', target: :blank }
+                  Koosh
+              %li
+                %a{ href: 'https://soundcloud.com/therealdjspun', target: :blank }
+                  DJ Spun
+              %li
+                %a{ href: 'Magic Fly: https://soundcloud.com/james-flavour/magicfly-supersuprizedjmix', target: :blank }
+                  Magic Fly
+              %li
+                %a{ href: 'https://soundcloud.com/derekdee', target: :blank }
+                  DJ D.DEE
+              %li
+                %a{ href: 'https://soundcloud.com/james-flavour', target: :blank }
+                  James Flavour
+              %li
+                %a{ href: 'https://soundcloud.com/pacificrhythm', target: :blank }
+                  Pacific Rhythm Label
+              %li
+                %a{ href: 'https://soundcloud.com/dave-dk', target: :blank }
+                  Dave DK (on request)
+              %li
+                %a{ href: 'http://www.residentadvisor.net/dj/themole', target: :blank }
+                  The Mole (on request)
 
-        .col-sm-6
-          %ul.links
-            %li
-              %a{ href: 'https://www.facebook.com/epiksoundagency', target: :blank, title: 'Facebook' }
-                %i.fa.fa-facebook
+        .col-sm-12
+          %section.social
+            %ul.links
+              %li
+                %a{ href: 'https://www.facebook.com/epiksoundagency', target: :blank, title: 'Facebook' }
+                  %i.fa.fa-facebook
+              %li
+                %a{ href: 'https://www.instagram.com/epiksound/', target: :blank, title: 'Instagram' }
+                  %i.fa.fa-instagram
+              %li
+                %a{ mailto: 'felix@epiksound.com', target: :blank, title: 'Email' }
+                  %i.fa.fa-envelope
 
-            %li
-              %a{ href: 'https://www.instagram.com/epiksound/', target: :blank, title: 'Instagram' }
-                %i.fa.fa-instagram
-
-            %li
-              %a{ mailto: 'felix@epiksound.com', target: :blank, title: 'Email' }
-                %i.fa.fa-envelope
+      .row
+        .col.sm-12
+          %footer
+            = image_tag 'logo-bottom.jpg'
 
