@@ -4,49 +4,8 @@ title: epiksound
 
 %section.artists
   %ul.artist-list
-    %li
-      %a{ href: 'https://soundcloud.com/invisible-city', target: :blank }
-        INVISIBLE CITY SOUND SYSTEM - TORONTO
-    %li
-      %a{ href: 'https://soundcloud.com/felix-dickinson', target: :blank }
-        FELIX DICKINSON (CLAREMONT 56, CYNIC, DFA) BRISTOL
-    %li
-      %a{ href: 'https://soundcloud.com/vonparty', target: :blank }
-        THOMAS VON PARTY (MULTI CULTI) MONTREAL
-    %li
-      %a{ href: 'https://soundcloud.com/multiculti', target: :blank }
-        MULTI CULTI LABEL NIGHTS
-    %li
-      %a{ href: 'https://soundcloud.com/dave-dk', target: :blank }
-        DAVE DK (KOMPAKT, PAMPA) BERLIN
-    %li
-      %a{ href: 'https://soundcloud.com/therealdjspun', target: :blank }
-        DJ SPUN (RONG MUSIC, STILOVE4MUSIC) NEW YORK
-    %li
-      %a{ href: 'https://soundcloud.com/derekdee', target: :blank }
-        DJ D.DEE (PACIFIC RHYTHM) VANCOUVER
-    %li
-      %a{ href: 'https://soundcloud.com/d-tiffany', target: :blank }
-        D. TIFFANY | DJ ZOZI (PACIFIC RHYTHM) VANCOUVER
-    %li
-      %a{ href: 'https://soundcloud.com/mood-hut', target: :blank }
-        NEO IMAGE (MOOD HUT) VANCOUVER
-    %li
-      %a{ href: 'https://soundcloud.com/suol', target: :blank }
-        CHOPSTICK AND JOHNJON (SUOL) BERLIN
-    %li
-      %a{ href: 'https://soundcloud.com/sonns', target: :blank }
-        SONNS (KOMPAKT, MAKING SHAPES) LA
-    %li
-      %a{ href: 'https://soundcloud.com/fl-rist', target: :blank }
-        FLØRIST (ALL CAPS, WORLD BUILDING) VANCOUVER
-    %li
-      %a{ href: 'https://soundcloud.com/split-secs', target: :blank }
-        SPLIT SECS (THRONE OF BLOOD, KOMPAKT) LA
-    %li
-      %a{ href: 'https://soundcloud.com/tkdisko', target: :blank }
-        TK DISKO (SPLIT SECS) LA
-    %li
-      %a{ href: 'https://soundcloud.com/jake-reif', target: :blank }
-        JAKE REIF (L.I.E.S., SNUFF TRAX) NEW YORK
+    - data.artists.each do |artist|
+      %li
+        %a{ href: artist.soundcloud, target: :blank }
+          = artist.name
 
