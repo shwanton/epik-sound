@@ -6,6 +6,6 @@ title: epiksound
   %ul.artist-list
     - data.artists.each do |artist|
       %li
-        %a{ href: artist.soundcloud, target: :blank }
+        %a{ href: artist.link, target: :blank }
           = artist.name
 
