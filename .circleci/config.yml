@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  deploy:
+    docker: 
+      - image: shwanton/circleci
+
+    steps:
+      - checkout
+
+      - setup_remote_docker:
+          docker_layer_caching: true
+
+      - run:
+          name: Build image with latest app
+          command: docker-compose build
+
+      - deploy:
+          name: Deploy app with ftp
+          command: docker-compose up -d
