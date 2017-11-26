@@ -20,6 +20,6 @@ jobs:
 
 workflows:
   version: 2
-  deploy:
+  deploy-app:
     jobs:
-      - deploy:
+      - deploy
