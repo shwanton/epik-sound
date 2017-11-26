@@ -11,12 +11,12 @@ jobs:
           docker_layer_caching: true
 
       - run:
-          name: Build image with latest app
+          name: Build middleman app
           command: docker-compose build
 
       - deploy:
-          name: Deploy app with ftp
-          command: docker-compose up -d
+          name: FTP build to server
+          command: docker-compose up
 
 workflows:
   version: 2
