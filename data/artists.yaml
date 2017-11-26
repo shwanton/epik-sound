@@ -1,27 +1,59 @@
-- name: D. Tiffany | DJ Zozi (Pacific Rhythm) Vancouver
+- name: D. Tiffany | DJ Zozi
+  affiliation: Pacific Rhythm
+  location: Vancouver
   link: https://soundcloud.com/d-tiffany
-- name: Flørist (ALL CAPS, World Building) Vancouver
+
+- name: Flørist
+  affiliation: ALL CAPS, World Building
+  location: Vancouver
   link: https://soundcloud.com/fl-rist
-- name: DJ D.DEE (Pacific Rhythm) Vancouver
+
+- name: DJ D.DEE
+  affiliation: Pacific Rhythm
+  location: Vancouver
   link: https://soundcloud.com/derekdee
-- name: Thomas Von Party (Multi Culti) Montreal
+
+- name: Thomas Von Party
+  affiliation: Multi Culti
+  location: Montreal
   link: https://soundcloud.com/vonparty
-- name: Manfredas (Multi Culti, Les Disques De La Mort) Vilnius
+
+- name: Manfredas
+  affiliation: Multi Culti, Les Disques De La Mort
+  location: Vilnius
   link: https://soundcloud.com/manfredas
+
 - name: Multi Culti Label Nights
+  affiliation: Multi Culti
   link: https://soundcloud.com/multiculti
-- name: Dave DK (Kompakt, Pampa) Berlin
+
+- name: Dave DK
+  affiliation: Kompakt, Pampa
+  location: Berlin
   link: https://soundcloud.com/dave-dk
-- name: SONNS (Kompakt, Making Shapes) LA
+
+- name: SONNS
+  affiliation: Kompakt, Making Shapes
+  location: LA
   link: https://soundcloud.com/sonns
-- name: Neo Image (Mood Hut) Vancouver
+
+- name: Neo Image
+  affiliation: Mood Hut
+  location: Vancouver
   link: https://soundcloud.com/mood-hut 
-- name: Felix Dickinson (Claremont 56, Cynic, Dfa) Bristol
+
+- name: Felix Dickinson
+  affiliation: Claremont 56, Cynic, Dfa
+  location: Bristol
   link: https://soundcloud.com/felix-dickinson
-- name: Chopstick and Johnjon (Suol) Berlin
+
+- name: Chopstick and Johnjon
+  affiliation: Suol
+  location: Berlin
   link: https://soundcloud.com/suol
-- name: DJ Spun (Rong Music, Stilove4music) New York
+
+- name: DJ Spun
+  affiliation: Rong Music, Stilove4music
+  location: New York
   link: https://soundcloud.com/therealdjspun
-
-
 
