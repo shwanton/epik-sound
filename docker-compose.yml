@@ -4,10 +4,6 @@ services:
   web:
     build: .
     env_file: .env
-    environment:
-      - EPIKSOUND_FTP_HOSTNAME: $EPIKSOUND_FTP_HOSTNAME
-      - EPIKSOUND_FTP_USER: $EPIKSOUND_FTP_USER
-      - EPIKSOUND_FTP_PASSWORD: $EPIKSOUND_FTP_PASSWORD
     ports:
       - "4567:4567"
       - "35729:35729"
