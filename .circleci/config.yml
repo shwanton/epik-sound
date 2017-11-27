@@ -16,7 +16,7 @@ jobs:
 
       - deploy:
           name: FTP build to server
-          command: docker-compose -f docker-compose.ci.yml run app ./bin/setup.sh
+          command: docker-compose -f docker-compose.ci.yml run app ./bin/deply.sh
 
 workflows:
   version: 2
