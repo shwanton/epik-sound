@@ -11,12 +11,12 @@ jobs:
           docker_layer_caching: true
 
       - run:
-          name: Build middleman app
+          name: Build image
           command: docker-compose -f docker-compose.ci.yml build
 
       - deploy:
-          name: FTP build to server
-          command: docker-compose -f docker-compose.ci.yml run app ./bin/deply.sh
+          name: Deploy app
+          command: docker-compose -f docker-compose.ci.yml up
 
 workflows:
   version: 2
