@@ -12,11 +12,11 @@ jobs:
 
       - run:
           name: Build middleman app
-          command: docker-compose build
+          command: docker-compose -f docker-compose.ci.yml build
 
       - deploy:
           name: FTP build to server
-          command: docker-compose up
+          command: docker-compose -f docker-compose.ci.yml run app ./bin/setup.sh
 
 workflows:
   version: 2

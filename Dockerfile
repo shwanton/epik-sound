@@ -15,6 +15,4 @@ RUN gem install bundler && bundle install --jobs 20 --retry 5
 
 COPY . ./
 
-RUN bundle exec middleman build
-
-CMD ./bin/sync.sh
+CMD bundle exec middleman serve
