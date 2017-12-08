@@ -4,7 +4,7 @@
   link: https://soundcloud.com/d-tiffany
 
 - name: Flørist
-  affiliation: ALL CAPS, World Building
+  affiliation: Pacific Rhythm
   location: Vancouver
   link: https://soundcloud.com/fl-rist
 
@@ -22,11 +22,6 @@
   affiliation: Multi Culti, Les Disques De La Mort
   location: Vilnius
   link: https://soundcloud.com/manfredas
-
-- name: Multi Culti (Label Nights)
-  affiliation: Multi Culti
-  location: Berlin
-  link: https://soundcloud.com/multiculti
 
 - name: Neo Image
   affiliation: Mood Hut
@@ -58,7 +53,10 @@
   location: Bristol
   link: https://soundcloud.com/felix-dickinson
   
-
+- name: Multi Culti (Label Nights)
+  affiliation: Multi Culti
+  location: Berlin
+  link: https://soundcloud.com/multiculti
 
   
 
