@@ -1,62 +1,33 @@
-- name: D. Tiffany | DJ Zozi
-  affiliation: Pacific Rhythm
-  location: Vancouver
-  link: https://soundcloud.com/d-tiffany
+<!-- Place this tag where you want the booking button and form to render. -->
+<div id="gigwell-container"></div>
 
-- name: Flørist
-  affiliation: Pacific Rhythm
-  location: Vancouver
-  link: https://soundcloud.com/fl-rist
-
-- name: DJ D.DEE
-  affiliation: Pacific Rhythm
-  location: Vancouver
-  link: https://soundcloud.com/derekdee
-
-- name: Thomas Von Party
-  affiliation: Multi Culti
-  location: Montreal
-  link: https://soundcloud.com/vonparty
-
-- name: Manfredas
-  affiliation: Multi Culti, Les Disques De La Mort
-  location: Vilnius
-  link: https://soundcloud.com/manfredas
-
-- name: Neo Image
-  affiliation: Mood Hut
-  location: Vancouver
-  link: https://soundcloud.com/mood-hut 
-
-- name: Dave DK
-  affiliation: Kompakt, Pampa
-  location: Berlin
-  link: https://soundcloud.com/dave-dk
-
-- name: Chopstick and Johnjon
-  affiliation: Suol
-  location: Berlin
-  link: https://soundcloud.com/suol
+<!-- Place this code somewhere in your HTML document, or Site Configuration. -->
+<script type="text/javascript">
+var script = document.createElement('script');var f = document.getElementsByTagName('script')[0];script.async = 1;script.defer = 1;script.src = location.protocol + '//connect.gigwell.com/booknow/widget.js?1521310480886?' + new Date().valueOf();script.id = 'booking-script';script.setAttribute('crossorigin', '*');f.parentNode.insertBefore(script, f);window.gigwell = {};gigwell.apiUrl = "https://api.gigwell.com";gigwell.formDisplayMode = "inline";gigwell.agencyId = "157364";gigwell.artistId = "";gigwell.buttonName = "Book Now";gigwell.submitName = "Request Booking";gigwell.headline = "Booking Request";gigwell.hideHeadline = "false";
+gigwell.onInit = function () {
+  gigwell.open();
   
-- name: SONNS
-  affiliation: Kompakt
-  location: Los Angeles
-  link: https://soundcloud.com/sonns
-  
-- name: DJ Spun
-  affiliation: Rong Music
-  location: New York
-  link: https://soundcloud.com/therealdjspun
-  
-- name: Felix Dickinson
-  affiliation: Future Boogie, DFA
-  location: Bristol
-  link: https://soundcloud.com/felix-dickinson
-  
-- name: Multi Culti (Label Nights)
-  affiliation: Multi Culti
-  location: Berlin
-  link: https://soundcloud.com/multiculti
+};
+</script>
 
-  
-
+<!-- You can customize the booking button through css here -->
+<style type="text/css">
+#gigwell-container .booking {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: 0;
+    padding: 0 6px;
+    line-height: 36px;
+    min-height: 36px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    border-radius: 3px;
+}
+</style>
