@@ -1,17 +1,27 @@
-- name: DJ D.DEE
-  affiliation: Pacific Rhythm
-  location: Vancouver
-  link: https://soundcloud.com/derekdee
-
 - name: Flørist
   affiliation: Pacific Rhythm
   location: Vancouver
   link: https://soundcloud.com/fl-rist
 
+- name: DJ D.DEE
+  affiliation: Pacific Rhythm
+  location: Vancouver
+  link: https://soundcloud.com/derekdee
+
+- name: Thomas Von Party
+  affiliation: Multi Culti
+  location: Montreal
+  link: https://soundcloud.com/vonparty
+
 - name: Manfredas
   affiliation: Multi Culti, Les Disques De La Mort
   location: Vilnius
   link: https://soundcloud.com/manfredas
+
+- name: Neo Image
+  affiliation: Mood Hut
+  location: Vancouver
+  link: https://soundcloud.com/mood-hut 
 
 - name: Dave DK
   affiliation: Kompakt, Pampa
@@ -33,10 +43,10 @@
   location: New York
   link: https://soundcloud.com/therealdjspun
   
-  - name: Neo Image
-  affiliation: Mood Hut
-  location: Vancouver
-  link: https://soundcloud.com/mood-hut 
+- name: Felix Dickinson
+  affiliation: Future Boogie, DFA
+  location: Bristol
+  link: https://soundcloud.com/felix-dickinson
   
 - name: Multi Culti (Label Nights)
   affiliation: Multi Culti
