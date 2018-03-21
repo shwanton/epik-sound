@@ -33,6 +33,9 @@
           = partial 'layouts/footer'
 
     :javascript
+      var script = document.createElement('script');var f = document.getElementsByTagName('script')[0];script.async = 1;script.defer = 1;script.src = location.protocol + '//connect.gigwell.com/booknow/widget.js?1521649241441?' + new Date().valueOf();script.id = 'booking-script';script.setAttribute('crossorigin', '*');f.parentNode.insertBefore(script, f);window.gigwell = {};gigwell.apiUrl = "https://api.gigwell.com";gigwell.formDisplayMode = "modal";gigwell.agencyId = "157364";gigwell.artistId = "";gigwell.buttonName = "Book Now";gigwell.submitName = "Request Booking";gigwell.headline = "Booking Request";gigwell.hideHeadline = "false";
+
+    :javascript
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
