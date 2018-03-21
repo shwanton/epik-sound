@@ -25,10 +25,10 @@
         .col-sm-12
           = partial 'layouts/header'
 
-      %main.row
-        .col-sm-12
-          %gigwell-embedded-roster{:agency => "157364", "highlight-color" => "#00b0ff", :labels => "{'backToRoster':'Back to Roster','bioHideReadMore':'Hide Full Bio','bioReadMore':'Read Full Bio','bookNow':'Book Now','downloads':'Downloads','genres':'Genres','labels':'Labels','loading':'Loading...','loadingEvents':'Loading Events...','location':'Location','noPastEvents':'No past gigs.','noUpcomingEvents':'No upcoming gigs.','pastEvents':'Past gigs','pressKit':'Press Kit','rsvp':'RSVP','techRider':'Tech Rider','tickets':'Tickets','upcomingEvents':'Upcoming gigs'}", "profile-box-shadow-color" => "#ccc", "profile-text-color" => "#333", "roster-text-color" => "#333", "roster-views" => "[{'borderRadius':3,'enabled':true,'size':200,'style':'circles','type':'grid'},{'borderRadius':3,'enabled':true,'imageHeight':40,'size':300,'style':'circles','type':'list'}]"}
+    %main
+      %gigwell-embedded-roster{:agency => "157364", "highlight-color" => "#00b0ff", :labels => "{'backToRoster':'Back to Roster','bioHideReadMore':'Hide Full Bio','bioReadMore':'Read Full Bio','bookNow':'Book Now','downloads':'Downloads','genres':'Genres','labels':'Labels','loading':'Loading...','loadingEvents':'Loading Events...','location':'Location','noPastEvents':'No past gigs.','noUpcomingEvents':'No upcoming gigs.','pastEvents':'Past gigs','pressKit':'Press Kit','rsvp':'RSVP','techRider':'Tech Rider','tickets':'Tickets','upcomingEvents':'Upcoming gigs'}", "profile-box-shadow-color" => "#ccc", "profile-text-color" => "#333", "roster-text-color" => "#333", "roster-views" => "[{'borderRadius':3,'enabled':true,'size':200,'style':'circles','type':'grid'},{'borderRadius':3,'enabled':true,'imageHeight':40,'size':300,'style':'circles','type':'list'}]"}
 
+    .container
       %footer.row
         .col-sm-12
           = partial 'layouts/footer'
