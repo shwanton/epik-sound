@@ -15,6 +15,7 @@
     %link{:href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}
     %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==", :rel => "stylesheet"}
     %link{:href=>'https://fonts.googleapis.com/css?family=Yantramanav:100,300,400', :rel => 'stylesheet', :type => 'text/css'}
+    %script{ :type => "text/javascript", :src => "//connect.gigwell.com/roster/loader.js", :async => 'async', :crossorigin => "*"}
 
     = stylesheet_link_tag :site
 
@@ -26,7 +27,7 @@
 
       %main.row
         .col-sm-12
-          = yield
+          %gigwell-embedded-roster{:agency => "157364", "highlight-color" => "#00b0ff", :labels => "{'backToRoster':'Back to Roster','bioHideReadMore':'Hide Full Bio','bioReadMore':'Read Full Bio','bookNow':'Book Now','downloads':'Downloads','genres':'Genres','labels':'Labels','loading':'Loading...','loadingEvents':'Loading Events...','location':'Location','noPastEvents':'No past gigs.','noUpcomingEvents':'No upcoming gigs.','pastEvents':'Past gigs','pressKit':'Press Kit','rsvp':'RSVP','techRider':'Tech Rider','tickets':'Tickets','upcomingEvents':'Upcoming gigs'}", "profile-box-shadow-color" => "#ccc", "profile-text-color" => "#333", "roster-text-color" => "#333", "roster-views" => "[{'borderRadius':3,'enabled':true,'size':200,'style':'circles','type':'grid'},{'borderRadius':3,'enabled':true,'imageHeight':40,'size':300,'style':'circles','type':'list'}]"}
 
       %footer.row
         .col-sm-12
